@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+header {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px red;
+    font-family:  'Courier New', Courier, monospace;
+}
+img {
+    width: 40px;
+    background-color: red;
+    border-radius: 10%;
+    border-style:outset;
+    border-color: red;
+    float: inline-end;
+}
+/* Navigation bar*/
+
+nav {
+    text-align: center;
+    
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+nav a:hover {
+    color: red;
+    background-color: #38393a;
+    
+    transition: all 0.6s ease;
+}
+nav a:focus {
+    color: whitesmoke;
+    background-color: #38393a;
+}
+/* There is definently a better way I should be styling the nav tags I will ask you in class tomorrow.*/
+
+
+
+
+
+h1 {
+    text-align :center;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #010915;
+    text-shadow: 1px 3px 3px #535963;
+}
+
+
